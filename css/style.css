@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  color: #fff;
+}
+button{
+  margin: 5px;
+  background-color: white; /* Green */
+    border: none;
+    color: black;
+    width: 25% !important;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+textarea{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+  overflow: auto;
+  width: 90%;
+  border: 1px solid #888;
+}
+
+#header{
+  height: 100px;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  min-width: 450px;
+  text-align: center;
+  padding-top: 30px;
+}
+#login{
+  height: 100%;
+  width: 200px;
+}
+#body{
+  min-width: 450px;
+  min-height: 100%;
+  margin: 10px;
+}
+#startbutton & #puchImg{
+  background-color: #fff; /* Green */
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: auto 4px 2px;
+  padding: auto 10px 5px;
+  cursor: pointer;
+}
+div.content{
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+}
+div.camera{
+  /*width: 520px;*/
+  /*height: 900px;*/
+  background-color: #344e8a;
+  padding: 10px;
+}
+div.output{
+  position: relative;
+  height: 375px;
+  /*width: 500px;*/
+  border: 5px;
+  border-style: solid;
+  background-color: rgb(170, 170, 170);
+  overflow: hidden;
+}
+/*MENU*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+#menu li a:hover {
+    background-color: #111;
+}
+
+/* filters*/
+.filters{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+lu > img{
+  height: 100px;
+  margin: 5px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/**/
+
+div.gallery {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    background-color: lightgrey;
+}
+
+div.image{
+  background-color: grey;
+  border: 1px solid blue;
+  margin: 5px;
+  width: 250px;
+  height: auto;
+}
+div.image img{
+  width: 100%;
+  padding: 2px auto;
+}
+#video{
+  border: 5px;
+  border-style: solid;
+}
+#filter{
+  position: absolute;
+}
+
+/* pagination */
+
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+ul.pagination li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+ul.pagination li a:hover:not(.active) {background-color: #ddd;}
+
+
+/*LIKE*/
+
+button {
+  width: 20px;
+  height: 20px;
+}
+
+.like true{
+  background-color: #FFF;
+}
+
+.like false{
+  background-color: red;
+
+}
+#body input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    margin : 5px;
+}
+
+#footer{
+  background-color: #333;
+  height: 100%;
+  /*padding-bottom: 5vmin;*/
+}
